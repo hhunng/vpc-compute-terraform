@@ -1,0 +1,12 @@
+#ignore sensitive data
+*.tfvars
+
+#ignore .venv
+.venv
+
+#ignore tfstate
+*.tfstate
+*.tfstate.*
+
+#ignore local .terraform dir
+.terraform/*
